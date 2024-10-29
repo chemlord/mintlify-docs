@@ -77,8 +77,8 @@
       "group": "Getting Started",
       "pages": [
         "introduction",
-        "development",
-        "settings/global",
+        "reaction-catalog",
+        "essentials/settings",
         "settings/navigation"
       ]
     },
@@ -94,16 +94,13 @@
       ]
     },
     {
-      "group": "API References",
+      "group": "Oxidation Reactions",
       "pages": [
         "api-playground/overview",
         {
-          "group": "Using OpenAPI",
-          "icon": "brackets-curly",
+          "group": "Dess Martin Oxidation",
           "pages": [
-            "api-playground/openapi/setup",
-            "api-playground/openapi/writing-openapi",
-            "api-playground/openapi/advanced-features"
+            "oxidation-reaction-tutorials/oxidation-without-water"
           ]
         },
         {
