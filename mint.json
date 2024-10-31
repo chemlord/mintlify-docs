@@ -6,7 +6,7 @@
     "dark": "/logo/dark.svg",
     "href": "https://mintlify.com"
   },
-  "layout": "sidenav",
+  "layout": "topnav",
   "favicon": "/favicon.svg",
   "sidebar": {
     "items": "container"
