@@ -26,7 +26,11 @@
   },
   "topbarLinks": [
     {
-      "name": "Community",
+      "name": "Blog",
+      "url": "https://mintlify.com/community"
+    },
+    {
+      "name": "Contact Me",
       "url": "https://mintlify.com/community"
     }
   ],
@@ -50,7 +54,7 @@
       "url": "home"
     },
     {
-      "name": "Reactions",
+      "name": "Tutorials",
       "url": "reactions"
     },
     {
@@ -60,27 +64,18 @@
     {
       "name": "Flashcards",
       "url": "integrations"
-    },
-    {
-      "name": "Updates",
-      "url": "changelog"
     }
   ],
   "anchors": [
     {
-      "name": "Reaction Catalog",
+      "name": "Help & FAQs",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Overview Catalog",
-      "icon": "book-open",
+      "name": "Roadmap & Updates",
+      "icon": "map",
       "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
@@ -88,9 +83,15 @@
       "group": "Getting Started",
       "pages": [
         "introduction",
-        "development",
-        "essentials/settings",
-        "settings/navigation"
+        "navigation"
+      ]
+    },
+    {
+      "group": "Reaction Tutorial Catalog",
+      "pages": [
+        "reactions/sort-by-name",
+        "reactions/sort-alphabetically",
+        "reactions/sort-by-product"
       ]
     },
     {
@@ -109,7 +110,15 @@
             {
               "group": "Swern Oxidation",
               "pages": [
-                "reactions/swern-oxidation/test"
+                "reactions/swern-oxidation/test",
+                "reactions/swern-oxidation/test2"
+              ]
+            },
+            {
+              "group": "Moffat-Pfitzner Oxidation",
+              "pages": [
+                "reactions/qoo/test",
+                "reactions/woo/test2"
               ]
             },
             "advanced/user-auth/sending-data"
@@ -178,10 +187,6 @@
         "content/components/expandables",
         "content/components/sticky-examples"
       ]
-    },
-    {
-      "group": "Changelog",
-      "pages": ["changelog/overview"]
     }
   ],
   "footer": {
