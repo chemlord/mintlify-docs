@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Mintlify",
+  "name": "Reaction Repo",
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg",
@@ -39,15 +39,15 @@
   },
   "feedback": {
     "thumbsRating": true,
-    "suggestEdit": true
+    "suggestEdit": false
   },
   "tabs": [
     {
-      "name": "Components",
+      "name": "Overviews",
       "url": "content"
     },
     {
-      "name": "Integrations",
+      "name": "Flashcards",
       "url": "integrations"
     },
     {
@@ -57,13 +57,13 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Reaction Catalog",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
+      "name": "Overview Catalog",
+      "icon": "book-open",
       "url": "https://mintlify.com/community"
     },
     {
@@ -141,7 +141,7 @@
       "pages": ["integrations/privacy/overview", "integrations/privacy/osano"]
     },
     {
-      "group": "Components",
+      "group": "Overviews",
       "pages": [
         "content/components/accordions",
         "content/components/accordion-groups",
