@@ -59,7 +59,7 @@
     },
     {
       "name": "Overviews",
-      "url": "content"
+      "url": "overviews"
     },
     {
       "name": "Flashcards",
@@ -126,9 +126,9 @@
         }]
     },
     {
-      "group": "Analytics",
+      "group": "Getting Started",
       "pages": [
-        "integrations/analytics/overview",
+        "overviews/introduction",
         "integrations/analytics/amplitude",
         "integrations/analytics/clearbit",
         "integrations/analytics/fathom",
@@ -145,6 +145,37 @@
       ]
     },
     {
+      "group": "Reactions",
+      "pages": [{
+          "icon": "atom",
+          "group": "Oxidation Reactions",
+          "pages": [
+            "overviews/dess-martin-oxidation",
+            {
+              "group": "Dess-Martin Oxidation",
+              "pages": [
+                "overviews/dess-martin-oxidation/dess-martin-oxidation-overview"
+              ]
+            },
+            {
+              "group": "Swern Oxidation",
+              "pages": [
+                "reactions",
+                "reactions"
+              ]
+            },
+            {
+              "group": "Moffat-Pfitzner Oxidation",
+              "pages": [
+                "reactions",
+                "reactions"
+              ]
+            },
+            "advanced/user-auth/sending-data"
+          ]
+        }]
+    },
+    {
       "group": "SDKs",
       "pages": ["integrations/sdks/speakeasy", "integrations/sdks/stainless"]
     },
@@ -154,38 +185,6 @@
         "integrations/support/overview",
         "integrations/support/intercom",
         "integrations/support/front"
-      ]
-    },
-    {
-      "group": "Privacy",
-      "pages": ["integrations/privacy/overview", "integrations/privacy/osano"]
-    },
-    {
-      "group": "Overviews",
-      "pages": [
-        "content/components/accordions",
-        "content/components/accordion-groups",
-        "content/components/callouts",
-        "content/components/cards",
-        "content/components/card-groups",
-        "content/components/code",
-        "content/components/code-groups",
-        "content/components/frames",
-        "content/components/icons",
-        "content/components/mermaid-diagrams",
-        "content/components/steps",
-        "content/components/tabs",
-        "content/components/tooltips",
-        "content/components/update"
-      ]
-    },
-    {
-      "group": "API Components",
-      "pages": [
-        "content/components/params",
-        "content/components/responses",
-        "content/components/expandables",
-        "content/components/sticky-examples"
       ]
     }
   ],
