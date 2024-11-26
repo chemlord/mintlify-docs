@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Reaction Repo",
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
+    "light": "/logo/haha2.png",
+    "dark": "/logo/haha.png",
     "href": "https://mintlify.com"
   },
   "layout": "topnav",
