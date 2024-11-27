@@ -75,7 +75,7 @@
     {
       "name": "Roadmap & Updates",
       "icon": "map",
-      "url": "https://mintlify.com/community"
+      "url": "https://reactionrepo.mintlify.app/updates"
     }
   ],
   "navigation": [
@@ -110,7 +110,7 @@
             {
               "group": "Swern Oxidation",
               "pages": [
-                "reactions/swern-oxidation/test",
+                "reactions/swern-oxidation/oxidation-with-oxalyl-chloride",
                 "reactions/swern-oxidation/test2"
               ]
             },
