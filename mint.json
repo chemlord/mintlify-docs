@@ -87,6 +87,10 @@
       ]
     },
     {
+      "group": "Changelog",
+      "pages": ["updates/overview"]
+    },
+    {
       "group": "Reaction Tutorial Catalog",
       "pages": [
         "reactions/sort-by-name",
