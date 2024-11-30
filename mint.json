@@ -105,6 +105,9 @@
           "group": "Oxidation Reactions",
           "pages": [
             "reactions/jones-oxidation",
+            "reactions/pinnick-oxidation",
+            "reactions/corey-kim-oxidation",
+            "reactions/potassium-permanganate-oxidation",
             {
               "group": "Dess-Martin Oxidation",
               "pages": [
