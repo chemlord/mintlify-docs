@@ -22,20 +22,25 @@ export const StartButton = ({ children = 'Go to Navigation' }) => {
   );
 };
 
-export const HeroCard = ({ img, title, description, href }) => {
+export const HeroCard = ({ imgLight, imgDark, title, description, href }) => {
   return (
-    <a className="border-b pb-8 cursor-pointer border-gray-500 dark:border-gray-800 hover:!border-primary dark:hover:!border-primary-light" href={href}>
-      <img src={img} className="w-full" />
+    <a
+      className="border-b pb-8 cursor-pointer border-gray-500 dark:border-gray-800 hover:!border-primary dark:hover:!border-primary-light flex flex-col items-center text-center"
+      href={href}
+    >
+      <img src={imgLight} className="w-full dark:hidden" alt={title} />
+      <img src={imgDark} className="w-full hidden dark:block" alt={title} />
       <h1 className="mt-4 font-semibold text-gray-900 dark:text-white">{title}</h1>
       <h2 className="mt-1 text-gray-600 dark:text-gray-400 text-sm leading-6">{description}</h2>
     </a>
-  )
-}
+  );
+};
+
 
 export const Banner = () => {
   return (
     <div className="flex not-prose bg-primary-dark" style={{ borderRadius: '0.5rem' }}>
-      <div className="flex-1" style={{ padding: '1.5rem 2rem', }}>
+      <div className="flex-1" style={{ padding: '2rem 2rem', }}>
         <h1 className="text-3xl text-white font-bold">Explore</h1>
         <h2 className="mt-1 text-white">Need help navigating or just do not know what you would like to study? Click here!</h2>
         <button className="mt-5 flex items-center space-x-1 font-medium px-4 py-1 bg-white rounded-xl group-hover:opacity-[0.9]" style={{ color: '#09090B' }}>
@@ -57,7 +62,7 @@ export const Banner = () => {
         </button>
       </div>
       <div className="hidden sm:flex flex-1">
-        <img src="https://chemlord.github.io/reactionrepo/article-repository/tribute-to-jcmartin/DMPOverviewDarkFix.png" />
+        <img src="https://chemlord.github.io/reactionrepo/docs/oxidation-reactions/potassium-permanganate-oxidation/potassium-permanganate-oxidation-tutorial/testing.png" />
       </div>
     </div>
   )
