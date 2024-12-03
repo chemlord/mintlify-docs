@@ -9,7 +9,7 @@
   "layout": "topnav",
   "favicon": "/favicon.svg",
   "sidebar": {
-    "items": "container"
+    "items": "border"
   },
   "colors": {
     "primary": "#0D9373",
@@ -30,12 +30,12 @@
       "url": "https://mintlify.com/community"
     },
     {
-      "name": "Contact Me",
+      "name": "Feedback",
       "url": "https://mintlify.com/community"
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Studying",
+    "name": "Pick a Reaction",
     "url": "https://mintlify.com/start"
   },
   "codeBlock": {
@@ -60,22 +60,13 @@
     {
       "name": "Overviews",
       "url": "overviews"
-    },
-    {
-      "name": "Updates",
-      "url": "updates"
     }
   ],
   "anchors": [
     {
-      "name": "Help & FAQs",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Roadmap & Updates",
-      "icon": "map",
-      "url": "https://reactionrepo.mintlify.app/updates"
+      "name": "Support",
+      "icon": "question",
+      "url": "malito:devthechemist@gmail.com"
     }
   ],
   "navigation": [
@@ -83,7 +74,7 @@
       "group": "Getting Started",
       "pages": [
         "introduction",
-        "navigation"
+        "quickstart"
       ]
     },
     {
