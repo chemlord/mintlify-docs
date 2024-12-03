@@ -1,46 +1,60 @@
 ---
-title: Welcome to Reaction Repo
+title: Reaction Repo Documentation
 sidebarTitle: Introduction
-description: Start learning more Organic Chemistry Reactions with our Documentation!
+description:
 icon: rocket
 mode: wide
 ---
 
 import { StartButton, HeroCard, Banner } from '/snippets/components.mdx';
 
-<Frame>
-  <img src="/images/image.png" className="block dark:hidden" alt="Light mode image" />
-  <img src="/images/img.png" className="hidden dark:block" alt="Dark mode image" />
-</Frame>
-
 Dive into our comprehensive documentation to explore reaction mechanisms, detailed explanations, and practice problems designed to enhance your understanding. Whether you're a student or an enthusiast, this is your launchpad to success in organic chemistry.
 
-## See how we can help you
-
-Reaction Repo provides features to aid you in your studying.
-
-<CardGroup cols={3}>
+<CardGroup cols={2}>
   <Card
-    title="Explore Reactions"
+    title="Detailed Entries"
     icon="flask"
   >
-    Browse a comprehensive database of organic chemistry reactions with detailed mechanisms and examples.
+    Browse a comprehensive database of organic chemistry reactions with mechanisms and examples.
   </Card>
-  <Card
-    title="Interactive Flashcards"
-    icon="brain"
-  >
-    [WORK IN PROGRESS] Test your knowledge with flashcards designed to help you memorize reaction details effectively.
-  </Card>
+  
   <Card
     title="Practice Problems"
     icon="book-open"
   >
-    Strengthen your understanding with practice problems and quizzes covering a variety of reaction types.
+    Strengthen your understanding with practice problems and quizzes.
   </Card>
 </CardGroup>
 
-<br />
+## Navigation
+<Tabs>
+  <Tab title="Using Quickstart">
+    <Steps>
+  <Step title="Go to Quickstart">
+    Use this button to reach Quickstart or Click the Quickstart Tab on the sidebar.
+    <StartButton />
+  </Step>
+  <Step title="Choose Tutorials or Overviews">
+    More Detailed Instructions will be provided as to which choice provides information suited to your needs.
+  </Step>
+  <Step title="Enjoy Studying!">
+    You will then be redirected to your desired selection screen to study.
+  </Step>
+</Steps>
+  </Tab>
+  <Tab title="Using Topbar Tabs">
+    <Steps>
+  <Step title="Choose Tutorials or Overviews.">
+    Assuming you know what in particular you wish to study. Tabs on the topbar provide direct links to reaction selection.
+  </Step>
+  <Step title="Enjoy Studying!">
+    You will be redirected to a selection area for reasons. If you are confused by what is offered. Please visit quickstart:
+    <StartButton />
+  </Step>
+</Steps>
+  </Tab>
+</Tabs>
+
 <br />
 
 <Banner />

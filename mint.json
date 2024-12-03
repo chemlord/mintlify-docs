@@ -30,12 +30,12 @@
       "url": "https://mintlify.com/community"
     },
     {
-      "name": "Feedback",
-      "url": "https://mintlify.com/community"
+      "name": "Support",
+      "url": "malito:devthechemist@gmail.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Pick a Reaction",
+    "name": "Quickstart",
     "url": "https://mintlify.com/start"
   },
   "codeBlock": {
@@ -63,11 +63,6 @@
     }
   ],
   "anchors": [
-    {
-      "name": "Support",
-      "icon": "question",
-      "url": "malito: devthechemist@gmail.com"
-    }
   ],
   "navigation": [
     {
