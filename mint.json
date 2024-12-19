@@ -93,6 +93,8 @@
             "reactions/jones-oxidation",
             "reactions/pinnick-oxidation",
             "reactions/corey-kim-oxidation",
+            "reactions/moffat-pfitnzer-oxidation",
+            "reactions/corey-schmidt-oxidation",
             "reactions/potassium-permanganate-oxidation",
             {
               "group": "Dess-Martin Oxidation",
@@ -104,14 +106,13 @@
               "group": "Swern Oxidation",
               "pages": [
                 "reactions/swern-oxidation/oxidation-with-oxalyl-chloride",
-                "reactions/swern-oxidation/test2"
+                "reactions/swern-oxidation/oxidation-with-tfaa"
               ]
             },
             {
-              "group": "Moffat-Pfitzner Oxidation",
+              "group": "Corey-Suggs Oxidation",
               "pages": [
-                "reactions/qoo/test",
-                "reactions/woo/test2"
+                "reactions/corey-suggs-oxidation/oxidation-with-DCM"
               ]
             },
             "advanced/user-auth/sending-data"
