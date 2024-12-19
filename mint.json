@@ -77,7 +77,7 @@
       "pages": ["updates/overview"]
     },
     {
-      "group": "Reaction Tutorial Catalog",
+      "group": "Reaction Catalog",
       "pages": [
         "reactions/sort-by-name",
         "reactions/sort-alphabetically",
