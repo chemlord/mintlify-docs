@@ -12,9 +12,9 @@
     "items": "border"
   },
   "colors": {
-    "primary": "#0D9373",
-    "light": "#55D799",
-    "dark": "#0D9373"
+    "primary": "#1976D2",
+    "light": "#64B5F6",
+    "dark": "#1565C0"
   },
   "api": {
     "auth": {
@@ -62,8 +62,7 @@
       "url": "overviews"
     }
   ],
-  "anchors": [
-  ],
+  "anchors": [],
   "navigation": [
     {
       "group": "Getting Started",
@@ -86,7 +85,8 @@
     },
     {
       "group": "Reactions",
-      "pages": [{
+      "pages": [
+        {
           "icon": "atom",
           "group": "Oxidation Reactions",
           "pages": [
@@ -114,71 +114,26 @@
               "pages": [
                 "reactions/corey-suggs-oxidation/oxidation-with-DCM"
               ]
-            },
-            "advanced/user-auth/sending-data"
+            }
           ]
-        }]
-    },
-    {
-      "group": "Getting Started",
-      "pages": [
-        "overviews/introduction",
-        "integrations/analytics/amplitude",
-        "integrations/analytics/clearbit",
-        "integrations/analytics/fathom",
-        "integrations/analytics/google-analytics",
-        "integrations/analytics/google-tag-manager",
-        "integrations/analytics/heap",
-        "integrations/analytics/hotjar",
-        "integrations/analytics/koala",
-        "integrations/analytics/logrocket",
-        "integrations/analytics/mixpanel",
-        "integrations/analytics/pirsch",
-        "integrations/analytics/plausible",
-        "integrations/analytics/posthog"
+        }
       ]
     },
     {
       "group": "Reactions",
-      "pages": [{
+      "pages": [
+        {
           "icon": "atom",
           "group": "Oxidation Reactions",
           "pages": [
-            "overviews/dess-martin-oxidation",
             {
               "group": "Dess-Martin Oxidation",
               "pages": [
                 "overviews/dess-martin-oxidation/dess-martin-oxidation-overview"
               ]
-            },
-            {
-              "group": "Swern Oxidation",
-              "pages": [
-                "reactions",
-                "reactions"
-              ]
-            },
-            {
-              "group": "Moffat-Pfitzner Oxidation",
-              "pages": [
-                "reactions",
-                "reactions"
-              ]
-            },
-            "advanced/user-auth/sending-data"
+            }
           ]
-        }]
-    },
-    {
-      "group": "SDKs",
-      "pages": ["integrations/sdks/speakeasy", "integrations/sdks/stainless"]
-    },
-    {
-      "group": "Support",
-      "pages": [
-        "integrations/support/overview",
-        "integrations/support/intercom",
-        "integrations/support/front"
+        }
       ]
     }
   ],
