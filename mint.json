@@ -43,7 +43,7 @@
   },
   "feedback": {
     "thumbsRating": true,
-    "suggestEdit": false
+    "suggestEdit": true
   },
   "primaryTab": {
     "name": "Home"
@@ -60,20 +60,33 @@
     {
       "name": "Overviews",
       "url": "overviews"
+    },
+    {
+      "name": "Releases",
+      "url": "release-notes"
     }
   ],
   "anchors": [],
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "",
       "pages": [
         "introduction",
         "quickstart"
       ]
     },
     {
-      "group": "Changelog",
-      "pages": ["updates/overview"]
+      "group": "Getting Started",
+      "pages": [
+        "additional-resources"
+      ]
+    },
+    {
+      "group": "Release Notes",
+      "pages": [
+        "release-notes/2025",
+        "release-notes/2024"
+      ]
     },
     {
       "group": "Reaction Catalog",
@@ -94,7 +107,6 @@
             "reactions/pinnick-oxidation",
             "reactions/corey-kim-oxidation",
             "reactions/moffat-pfitnzer-oxidation",
-            "reactions/corey-schmidt-oxidation",
             "reactions/potassium-permanganate-oxidation",
             {
               "group": "Dess-Martin Oxidation",
@@ -219,3 +231,4 @@
     }
   }
 }
+
