@@ -2,19 +2,19 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Reaction Repo",
   "logo": {
-    "light": "/logo/haha2.png",
-    "dark": "/logo/haha.png",
+    "light": "/logo/logolonglight.png",
+    "dark": "/logo/logolongdark.png",
     "href": "https://mintlify.com"
   },
   "layout": "topnav",
   "favicon": "/favicon.svg",
   "sidebar": {
-    "items": "border"
+    "items": "container"
   },
   "colors": {
-    "primary": "#1976D2",
+    "primary": "#1c44fc",
     "light": "#64B5F6",
-    "dark": "#1565C0"
+    "dark": "#1c44fc"
   },
   "api": {
     "auth": {
@@ -78,6 +78,7 @@
     {
       "group": "Getting Started",
       "pages": [
+        "arrow-pushing-guide",
         "additional-resources"
       ]
     },
